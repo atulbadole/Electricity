@@ -1,0 +1,88 @@
+.cntnr{
+    margin: 0;
+    padding: 450px;
+    background: url('../Photos/pic2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    font-family: sans-serif;
+}
+.lgbox{
+    width: 420px;
+    height: 450px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 5px 30px;
+    font-size: 20px;
+}
+
+.png{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.lgbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.lgbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.lgbox input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    
+    color: #fff;
+    font-size: 22px;
+}
+.lgbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height:40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.lgbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.lgbox a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    color:darkgrey;
+}
+
+.lgbox a:hover{
+    color: #ffc107;
+}

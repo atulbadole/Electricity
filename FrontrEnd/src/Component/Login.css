@@ -1,0 +1,99 @@
+.container{
+    margin: 0;
+    padding: 0px;
+    background: url('../Photos/pic2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    font-family: sans-serif;
+}
+.loginbox{
+    width: 420px;
+    height: 650px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 5px 30px;
+    font-size: 20px;
+}
+
+.png{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.loginbox input, .loginbox button{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"]
+{
+    border: none;
+    color:white;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    font-size: 14px;
+    width: 100% !important;
+}
+input[type="password"]
+{
+    border: none;
+    color:black;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    font-size: 14px;
+    width: 100% !important;
+}
+.loginbox button
+{
+    border: none;
+    outline: none;
+    height:40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.loginbox button:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox button{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    color:darkgrey;
+}
+
+.loginbox button:hover{
+    color: #ffc107;
+}
